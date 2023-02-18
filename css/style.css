@@ -457,3 +457,4 @@ a:hover {
     padding-right: 0;
     border-right: none;
 }
+@media screen and (max-width: 768px) { .tab-content { padding:0 10px !important; } }
