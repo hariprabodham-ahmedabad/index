@@ -3,6 +3,10 @@
 body{
     background-color: #ffecd7 !important;
 }
+.h3
+{
+    font-weight: normal !important
+}
 .container-xxl  {
    
     box-shadow: 0 0 5px rgba(0, 0, 0, .1);
