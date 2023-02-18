@@ -7,6 +7,14 @@ body{
 {
     font-weight: normal !important
 }
+p
+{
+    height: 50px !important;
+}
+/* .property-item
+{
+    height: 500px;
+} */
 .container-xxl  {
    
     box-shadow: 0 0 5px rgba(0, 0, 0, .1);
