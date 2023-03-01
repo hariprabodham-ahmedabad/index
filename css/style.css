@@ -7,9 +7,12 @@ body{
 {
     font-weight: normal !important
 }
-p
+.addcondvi
 {
-    height: 50px !important;
+    height: 210px !important;
+}
+p{
+    height: 65px !important;
 }
 /* .property-item
 {
