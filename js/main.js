@@ -39,8 +39,17 @@
 
 
     $('.sabha').change(function () {
-        debugger
-        if ($('.sabha').val() == 3) {
+        hideshowMandalWise(true);
+        hideshowDayWise(false);
+    });
+    $('.day').change(function () {
+        hideshowDayWise(true);
+        hideshowMandalWise(false);
+    })
+
+    function hideshowMandalWise(flag) {
+        var sabhaVal = $('.sabha').val();
+        if (sabhaVal == 3) {
             $('.m1').show();
             $('.m2').show();
             $('.m3').show();
@@ -54,7 +63,7 @@
             $('.nn3').hide();
             $('.nn4').hide();
         }
-        else if ($('.sabha').val() == 1) {
+        else if (sabhaVal == 1) {
             $('.m1').hide();
             $('.m2').hide();
             $('.m3').hide();
@@ -68,7 +77,7 @@
             $('.nn3').hide();
             $('.nn4').hide();
         }
-        else if ($('.sabha').val() == 2) {
+        else if (sabhaVal == 2) {
             $('.nn1').show();
             $('.nn2').show();
             $('.nn3').show();
@@ -82,7 +91,7 @@
             $('.n3').hide();
             $('.n4').hide();
         }
-        else if ($('.sabha').val() == 0) {
+        else if (sabhaVal == 0) {
             $('.m1').show();
             $('.m2').show();
             $('.m3').show();
@@ -97,6 +106,8 @@
             $('.nn4').show();
         }
         else {
+            if(flag)
+            {
             $('.m1').hide();
             $('.m2').hide();
             $('.m3').hide();
@@ -109,10 +120,87 @@
             $('.nn2').hide();
             $('.nn3').hide();
             $('.nn4').hide();
+            }
         }
-
-    });
-
+    }
+    function hideshowDayWise(flag) {
+        var dayVal = $('.day').val();
+        if (dayVal == 1) {
+            $('.m1').show();
+            $('.t2').hide();
+            $('.w3').hide();
+            $('.t4').hide();
+            $('.f5').hide();
+            $('.s6').hide();
+            $('.s7').hide();
+        }
+        else if (dayVal == 2) {
+            $('.m1').hide();
+            $('.t2').show();
+            $('.w3').hide();
+            $('.t4').hide();
+            $('.f5').hide();
+            $('.s6').hide();
+            $('.s7').hide();
+        }
+        else if (dayVal == 3) {
+            $('.m1').hide();
+            $('.t2').hide();
+            $('.w3').show();
+            $('.t4').hide();
+            $('.f5').hide();
+            $('.s6').hide();
+            $('.s7').hide();
+        }
+        else if (dayVal == 4) {
+            $('.m1').hide();
+            $('.t2').hide();
+            $('.w3').hide();
+            $('.t4').show();
+            $('.f5').hide();
+            $('.s6').hide();
+            $('.s7').hide();
+        }
+        else if (dayVal == 5) {
+            $('.m1').hide();
+            $('.t2').hide();
+            $('.w3').hide();
+            $('.t4').hide();
+            $('.f5').show();
+            $('.s6').hide();
+            $('.s7').hide();
+        }
+        else if (dayVal == 6) {
+            $('.m1').hide();
+            $('.t2').hide();
+            $('.w3').hide();
+            $('.t4').hide();
+            $('.f5').hide();
+            $('.s6').show();
+            $('.s7').hide();
+        }
+        else if (dayVal == 7) {
+            $('.m1').hide();
+            $('.t2').hide();
+            $('.w3').hide();
+            $('.t4').hide();
+            $('.f5').hide();
+            $('.s6').hide();
+            $('.s7').show();
+        }
+        else {
+            if(flag)
+            {
+            $('.m1').hide();
+            $('.t2').hide();
+            $('.w3').hide();
+            $('.t4').hide();
+            $('.f5').hide();
+            $('.s6').hide();
+            $('.s7').hide();
+            }
+        }
+    }
 
 
 })(jQuery);
