@@ -63,6 +63,7 @@
             $('.b1').hide();
             $('.b2').hide();
             $('.b3').hide();
+            $('.g1').hide();
         if (sabhaVal == 0) {
             $('.m1').hide();
             $('.m2').hide();
@@ -79,6 +80,7 @@
             $('.b1').hide();
             $('.b2').hide();
             $('.b3').hide();
+            $('.g1').hide();
             hideshowDayWise();
         }
         else if (sabhaVal == 1) {
@@ -134,6 +136,7 @@
             $('.b1').hide();
             $('.b2').hide();
             $('.b3').hide();
+            $('.g1').hide();
             }
         }
         else if (sabhaVal == 2) {
@@ -196,6 +199,7 @@
                 $('.b1').hide();
                 $('.b2').hide();
                 $('.b3').hide();
+                $('.g1').hide();
             }
         }
         else if (sabhaVal == 3) {
@@ -237,6 +241,7 @@
                 $('.b1').hide();
                 $('.b2').hide();
                 $('.b3').hide();
+                $('.g1').hide();
             }
         }
         else if (sabhaVal == 4) {
@@ -291,6 +296,48 @@
             $('.b1').show();
             $('.b2').show();
             $('.b3').show();
+            $('.g1').hide();
+            }
+        }
+        else if (sabhaVal == 5) {
+            if (dayVal == 1) {
+                $('.gt2').hide();
+            }
+            else if (dayVal == 2) {
+                $('.gt2').show();
+            }
+            else if (dayVal == 3) {
+                $('.gt2').hide();
+            }
+            else if (dayVal == 4) {
+                $('.gt2').hide();
+            }
+            else if (dayVal == 5) {
+                $('.gt2').hide();
+            }
+            else if (dayVal == 6) {
+                $('.gt2').hide();
+            }
+            else if (dayVal == 7) {
+                $('.gt2').hide();
+            }
+            else{
+                $('.m1').hide();
+            $('.m2').hide();
+            $('.m3').hide();
+            $('.m4').hide();
+            $('.n1').hide();
+            $('.n2').hide();
+            $('.n3').hide();
+            $('.n4').hide();
+            $('.nn1').hide();
+            $('.nn2').hide();
+            $('.nn3').hide();
+            $('.nn4').hide();
+            $('.b1').hide();
+            $('.b2').hide();
+            $('.b3').hide();
+            $('.g1').show();
             }
         }
     }
@@ -313,6 +360,7 @@
             $('.b1').hide();
             $('.b2').hide();
             $('.b3').hide();
+            $('.g1').hide();
         if (dayVal == 1) {
             if (sabhaVal == 2) {
                 $('.nnm1').show();
@@ -333,6 +381,9 @@
                 $('.bt2').hide();
                 $('.bw3').hide();
             }
+            else if (sabhaVal == 5) {
+                $('.gt2').hide();
+            }
             else{
             $('.nnm1').show();
             $('.bm1').show();
@@ -345,6 +396,7 @@
             $('.nnt4').hide();
             $('.nf5').hide();
             $('.nns6').hide();
+            $('.gt2').hide();
             }
         }
         else if (dayVal == 2) {
@@ -367,11 +419,15 @@
                 $('.bt2').show();
                 $('.bw3').hide();
             }
+            else if (sabhaVal == 5) {
+                $('.gt2').show();
+            }
             else{
                 $('.nnm1').hide();
             $('.bm1').hide();
             $('.nt2').show();
             $('.nnt2').show();
+            $('.gt2').show();
             $('.bt2').show();
             $('.mt2').show();
             $('.bw3').hide();
@@ -403,6 +459,9 @@
                 $('.bt2').hide();
                 $('.bw3').show();
             }
+            else if (sabhaVal == 5) {
+                $('.gt2').hide();
+            }
             else{
                 $('.nnm1').hide();
             $('.bm1').hide();
@@ -415,6 +474,7 @@
             $('.nnt4').hide();
             $('.nf5').hide();
             $('.nns6').hide();
+            $('.gt2').hide();
             }
             
             
@@ -439,6 +499,9 @@
                 $('.bt2').hide();
                 $('.bw3').hide();
             }
+            else if (sabhaVal == 5) {
+                $('.gt2').hide();
+            }
             else{
                 $('.nnm1').hide();
             $('.bm1').hide();
@@ -451,6 +514,7 @@
             $('.nnt4').hide();
             $('.nf5').hide();
             $('.nns6').hide();
+            $('.gt2').hide();
             }
             
             
@@ -475,6 +539,9 @@
                 $('.bt2').hide();
                 $('.bw3').hide();
             }
+            else if (sabhaVal == 5) {
+                $('.gt2').hide();
+            }
             else{
                 $('.nnm1').hide();
                 $('.bm1').hide();
@@ -487,6 +554,7 @@
                 $('.nnt4').hide();
                 $('.nf5').show();
                 $('.nns6').hide();
+                $('.gt2').hide();
             }
            
             
@@ -511,6 +579,9 @@
                 $('.bt2').hide();
                 $('.bw3').hide();
             }
+            else if (sabhaVal == 5) {
+                $('.gt2').hide();
+            }
             else{
                 $('.nnm1').hide();
                 $('.bm1').hide();
@@ -523,6 +594,7 @@
                 $('.nnt4').hide();
                 $('.nf5').hide();
                 $('.nns6').show();
+                $('.gt2').hide();
             }
            
             
@@ -547,6 +619,9 @@
                 $('.bt2').hide();
                 $('.bw3').hide();
             }
+            else if (sabhaVal == 5) {
+                $('.gt2').hide();
+            }
             else{
                 $('.nnm1').hide();
                 $('.bm1').hide();
@@ -559,6 +634,7 @@
                 $('.nnt4').hide();
                 $('.nf5').hide();
                 $('.nns6').hide();
+                $('.gt2').hide();
             }
             
             
@@ -583,6 +659,9 @@
                 $('.bt2').show();
                 $('.bw3').show();
             }
+            else if (sabhaVal == 5) {
+                $('.gt2').hide();
+            }
             else{
                 $('.nnm1').show();
             $('.bm1').show();
@@ -595,6 +674,7 @@
             $('.nnt4').show();
             $('.nf5').show();
             $('.nns6').show();
+            $('.gt2').show();
             }
             
             
@@ -604,4 +684,3 @@
 
 
 })(jQuery);
-

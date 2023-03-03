@@ -11,8 +11,10 @@ body{
 {
     height: 210px !important;
 }
-p{
+.p{
     height: 65px !important;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
 /* .property-item
 {
@@ -250,8 +252,9 @@ a:hover {
     justify-content: center;
     background: #FFFFFF !important; */
     /* border-radius: 50px;
-    border: 1px dashed #FF6922 !important; */
-} */
+    border: 1px dashed #FF6922 !important; 
+}*/
+
 
 
 /*** About ***/
@@ -472,4 +475,28 @@ a:hover {
     padding-right: 0;
     border-right: none;
 }
-@media screen and (max-width: 768px) { .tab-content { padding:0 10px !important; } }
+.margin-left-20{
+    margin-left: 20px;
+}
+.font-size-14{
+    font-size: 14px;
+}
+.logo{
+    width: 150px;
+}
+.pradesh-name{
+    width: 60px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+     .tab-content { 
+        padding:0 10px !important; 
+    }
+    .logo{
+        width: 100px;
+    } 
+    .img-fluid{
+        width: 50px;
+        height: 50px;
+    }
+    }
