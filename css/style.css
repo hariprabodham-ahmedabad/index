@@ -1,37 +1,47 @@
-
 /********** Template CSS **********/
-body{
+
+body {
     background-color: #ffecd7 !important;
 }
-.h3
-{
+
+.h3 {
     font-weight: normal !important
 }
-.addcondvi
-{
+
+.addcondvi {
     height: 210px !important;
 }
-.p{
+
+.p {
     height: 65px !important;
     font-size: 14px;
     margin-bottom: 10px;
 }
+
+.sabha-map {
+    border: 0;
+    height: 160px;
+    min-width: 450px;
+}
+
+
 /* .property-item
 {
     height: 500px;
 } */
-.container-xxl  {
-   
-    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
-}
-a:hover {
-    color: #FF6922;
-}
-.property-item{
-    border: 1px solid #ddd ;
+
+.container-xxl {
     box-shadow: 0 0 5px rgba(0, 0, 0, .1);
 }
 
+a:hover {
+    color: #FF6922;
+}
+
+.property-item {
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+}
 
 :root {
     --primary: #00B98E;
@@ -50,6 +60,7 @@ a:hover {
 
 
 /*** Spinner ***/
+
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -65,6 +76,7 @@ a:hover {
 
 
 /*** Button ***/
+
 .btn {
     transition: .5s;
 }
@@ -102,6 +114,7 @@ a:hover {
 
 
 /*** Navbar ***/
+
 .nav-bar {
     position: relative;
     margin-top: 45px;
@@ -147,20 +160,20 @@ a:hover {
 .navbar-light .navbar-nav .nav-link.active {
     color: var(--primary);
 }
+
 .form-select:focus {
     box-shadow: 0 0 0 0.25rem rgb(0 0 0 / 5%);
 }
+
 @media (max-width: 991.98px) {
     .nav-bar {
         margin: 0;
         padding: 0;
     }
-
-    .navbar-light .navbar-nav .nav-link  {
+    .navbar-light .navbar-nav .nav-link {
         margin-right: 0;
         padding: 10px 0;
     }
-
     .navbar-light .navbar-nav {
         border-top: 1px solid #EEEEEE;
     }
@@ -185,9 +198,7 @@ a:hover {
         opacity: 0;
         visibility: hidden;
         transition: .5s;
-        
     }
-
     .navbar .nav-item:hover .dropdown-menu {
         transform: rotateX(0deg);
         visibility: visible;
@@ -198,6 +209,7 @@ a:hover {
 
 
 /*** Header ***/
+
 @media (min-width: 992px) {
     .header {
         margin-top: -120px;
@@ -239,25 +251,29 @@ a:hover {
     }
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
     color: #DDDDDD;
 }
 
 
 /*** Icon ***/
+
+
 /* .icon {
     /* padding: 15px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     background: #FFFFFF !important; */
-    /* border-radius: 50px;
+
+
+/* border-radius: 50px;
     border: 1px dashed #FF6922 !important; 
 }*/
 
 
-
 /*** About ***/
+
 .about-img img {
     position: relative;
     z-index: 2;
@@ -277,6 +293,7 @@ a:hover {
 
 
 /*** Category ***/
+
 .cat-item div {
     background: #FFFFFF;
     border: 1px dashed rgba(0, 185, 142, .3);
@@ -298,6 +315,7 @@ a:hover {
 
 
 /*** Property List ***/
+
 .nav-pills .nav-item .btn {
     color: var(--dark);
 }
@@ -329,6 +347,7 @@ a:hover {
 
 
 /*** Team ***/
+
 .team-item {
     box-shadow: 0 0 30px rgba(0, 0, 0, .08);
     transition: .5s;
@@ -359,6 +378,7 @@ a:hover {
 
 
 /*** Testimonial ***/
+
 .testimonial-carousel {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -408,6 +428,7 @@ a:hover {
 
 
 /*** Footer ***/
+
 .footer .btn.btn-social {
     margin-right: 5px;
     width: 35px;
@@ -416,7 +437,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     color: var(--light);
-    border: 1px solid rgba(255,255,255,0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 35px;
     transition: .3s;
 }
@@ -451,7 +472,7 @@ a:hover {
 }
 
 .footer .form-control {
-    border-color: rgba(255,255,255,0.5);
+    border-color: rgba(255, 255, 255, 0.5);
 }
 
 .footer .copyright {
@@ -475,28 +496,33 @@ a:hover {
     padding-right: 0;
     border-right: none;
 }
-.margin-left-20{
+
+.margin-left-20 {
     margin-left: 20px;
 }
-.font-size-14{
+
+.font-size-14 {
     font-size: 14px;
 }
-.logo{
+
+.logo {
     width: 150px;
 }
-.pradesh-name{
+
+.pradesh-name {
     width: 60px;
     margin: 0 auto;
 }
+
 @media screen and (max-width: 768px) {
-     .tab-content { 
-        padding:0 10px !important; 
+    .tab-content {
+        padding: 0 10px !important;
     }
-    .logo{
+    .logo {
         width: 100px;
-    } 
-    .img-fluid{
+    }
+    .img-fluid {
         width: 50px;
         height: 50px;
     }
-    }
+}
