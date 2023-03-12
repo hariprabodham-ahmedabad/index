@@ -68,7 +68,6 @@ a:hover {
     /* message stating no filter results */
     display: block;
     width: 100%;
-    background: #d8d8d8;
     padding: 1em 1.5em;
     margin: 0.75%;
     border-radius: 0.25rem;
