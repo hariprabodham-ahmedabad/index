@@ -83,11 +83,10 @@
                     // if there was at least one checked input (other than all...)  run the addClassAll function adds selected class to filter-items that match checked (checkbox) class
                     if (filters.length > 0) { addClassAll(document.querySelectorAll(id + ' .filter-item.' + filters.join('.')), 'selected'); } // build css selector from filters array (add selected class to filter items (all except show all))
                     document.querySelectorAll(id + ' .selected').length == 0 ? addClassAll(noitem, 'filter-no-item-active') : delClassAll(noitem, 'filter-no-item-active'); // if no checkboxes (other than all) are checked, display no matches message
-                    console.log('document.querySelectorAll', document.querySelectorAll(id + ' .selected').length)
                 }
                 var checkCount = 0;
                 for (var i = 0; i < inputs.length; ++i) {
-                    checkCount += inputs[i].checked ? 1 : 0; // if inputs[i].checked is true --> add 1, else add 0                     
+                    checkCount += inputs[i].checked ? 1 : 0; // if inputs[i].checked is true --> add 1, else add 0 
                 }
                 if (checkCount == 0) { inputs[0].checked = true; }
                 if (inputs[0].checked) {
