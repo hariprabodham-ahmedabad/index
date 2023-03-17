@@ -9,7 +9,7 @@ body {
 }
 
 .addcondvi {
-    height: 210px !important;
+    /* height: 210px !important; */
 }
 
 .p {
@@ -247,6 +247,14 @@ a:hover {
 .filter-categories span input[type="radio"]:checked+label {
     background: #e18d30;
     color: #fff;
+}
+
+.contact-persons-main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 10px;
+    border-top: 1px dashed #ddd;
+    padding-top: 10px;
 }
 
 
